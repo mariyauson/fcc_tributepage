@@ -1,0 +1,165 @@
+/* @media (min-width: 400px) {
+    #image {
+      margin: auto;
+      max-width: 200px;
+  }
+} */
+
+body {
+    background-image: repeating-linear-gradient(45deg, #fff9d9 0px, #fff9d9 3px, bisque 5px, #ffebcb 9px);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  
+  a {
+    color: hsl(2, 50%, 30%);
+    text-decoration: none;
+  }
+  a:hover {
+    color: brown;
+  }
+  
+  #main {
+    width: 75%;
+    height: 4500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: linear-gradient(#fff9d9 600px, #ffffff);
+  }
+  
+  #title, h2 {
+    text-align: center;
+    margin-top: 100px;
+    text-transform: lowercase;
+    font-family: georgia, cursive;
+    letter-spacing: 5px;
+    font-size: 3.2rem;
+    color: hsl(200, 50%, 60%);
+    text-shadow: 2px -3px 0px #777;
+  }
+  
+  #title-p {
+    font-family: georgia, cursive;
+    letter-spacing: 2.4px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: hsl(20, 50%, 60%);
+    text-align: center;
+    width: 480px;
+    margin: auto;
+  }
+  
+  #image {
+    display: block;
+    width: 700px;
+    margin: auto;
+  }
+  
+  #img-caption {
+    font-family: courier new, georgia;
+    font-size: 0.7em;
+    margin: auto;
+    color: hsl(20, 50%, 60%);
+    text-align: center;
+    width: 500px;
+    padding-top: 20px;
+  }
+  
+  #tribute-info {
+    font-family: georgia, cursive;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    color: hsl(2, 50%, 30%);
+    background-color: rgba(0, 70, 50, 10%);
+    border: double 6px rgba(0, 20, 0, 70%);
+    border-radius: 20px;
+    margin: 70px;
+    padding: 5px 40px;
+  }
+  
+  #source {
+    font-size: 10px;
+    font-family: georgia, cursive;
+    float: right;
+    font-style: italic;
+    margin-top: -5px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 0px;
+    text-shadow: 2px -2px 0px #777;
+  }
+  
+  #div-grid {
+    margin: 30px;
+    height: 1800px;
+    display: grid;
+    grid-template-columns: 2fr 2fr; 
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-column-gap: 20px;
+    grid-gap: 20px 20px;
+  }
+  
+  #div-grid article {
+    background-color: rgba(0, 70, 40, 20%);
+    border: none 0px rgba(0, 20, 0, 70%);
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  #div-grid p {
+    font-size: 18px;
+    font-family: georgia, cursive;
+    text-align: center;
+    color: hsl(2, 50%, 30%);
+  
+  }
+  
+  hr {
+    width: 50%;
+    color: transparent;
+  }
+  
+  #div-grid img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #q1 p {
+    padding-top: 110px;
+  }
+  #q2 p {
+    padding-top: 10px;
+  }
+  #q3 p {
+    padding-top: 60px;
+  }
+  #q4 p {
+    padding-top: 30px;
+  }
+  #q5 p {
+    padding-top: 80px;
+  }
+  #q6 p{
+    padding-top: 65px;
+  }
+  
+  #tribute-p {
+    font-family: georgia, cursive;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: hsl(20, 50%, 50%);
+    text-align: center;
+    margin: auto;
+    width: 86%;
+    padding-top: 20px;
+  }
+  
+  #last {
+    width: 60%;
+    margin-top: 300px;
+  }
